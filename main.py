@@ -6,7 +6,7 @@ def main():
     """
     while True:
         try:
-            number = int(input('Enter a number '))
+            number = float(input('Enter a number '))
         except ValueError:
             print ('Enter only a number')
         else:

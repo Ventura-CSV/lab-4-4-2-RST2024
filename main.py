@@ -11,6 +11,7 @@ def main():
             print ('Enter only a number')
         else:
             print (number)
+            break
 
     ########################################
     # Do not delete the return statement

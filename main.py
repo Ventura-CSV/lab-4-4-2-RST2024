@@ -6,12 +6,13 @@ def main():
     """
     while True:
         try:
-            number = float(input('Enter a number '))
+            number = int(input('Enter a number '))
         except ValueError:
             print ('Enter only a number')
         else:
             print (number)
             break
+           
 
     ########################################
     # Do not delete the return statement
